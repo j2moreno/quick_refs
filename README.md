@@ -4,7 +4,9 @@ A repo with handy one liners for text manipulation, python snippets, Snakemake d
 ### This can be used to get column number of a specific entry in a row
 
 Ex:
+
 A          B           C
+
 123     345      678
 
 If you wanted to know which column C was in (in this case it is 3) you write:

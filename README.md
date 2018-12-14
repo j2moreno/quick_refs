@@ -5,7 +5,7 @@ A repo with handy one liners for text manipulation, python snippets, Snakemake d
 
 Ex:
 
-A          B           C
+A       B        C
 
 123     345      678
 

@@ -17,6 +17,13 @@ and then do a grep for C and return the column number
 
 ***without grep you get all column numbers of entries in row in order
 
+## In place line replacement using sed
+
+`sed -i '34s/AAA/BBB/' file_name`
+
+## Insert line into speific line number
+
+`sed -i '732iAAAAA\n' file_name `
 
 ## Linux Commands
 

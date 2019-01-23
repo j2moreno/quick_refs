@@ -17,6 +17,12 @@ and then do a grep for C and return the column number
 
 *** without grep you get all column numbers of entries in row in order
 
+## Awk Command to filter row based on field values
+
+`awk '{ if ($1 == 6) { print } }' file.txt  `
+
+this is saying if column 1 is == to 6 print row
+
 ## In place line replacement using sed
 
 `sed -i '34s/AAA/BBB/g' file_name`

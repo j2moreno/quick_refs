@@ -35,6 +35,10 @@ this is saying if column 1 is == to 6 print row
 
 `sed -i '34s/.*/BBB':g file_name`
 
+## Vim replace all occurances of word
+
+`:%s/word/bar/g `
+
 ## Linux Commands
 
 1. Python -m SimpleHTTPServer : Creates a simple web page for the current working directory over port 8000.
